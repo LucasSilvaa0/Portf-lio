@@ -1,0 +1,108 @@
+* {
+    border: border-box;
+}
+
+body {
+    background-color: rgb(112, 112, 182);
+
+    @media (min-width: 600px) {
+        height: 100vh;
+        
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+}
+
+.card {
+    background-color: purple;
+    height: 92%;
+    width: 470px;
+    
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 6%;
+
+    @media (max-width: 600px) {
+        width: 350px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 13px;
+    padding-bottom: 18px;
+}
+
+.nome {
+    font: normal 35px Arial;
+    color: rgb(225, 113, 113);
+    height: 9px;
+}
+
+.status {
+    color: rgb(0, 0, 0);
+    font: normal 22px Arial;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.contato {
+    font: normal 16px Arial;
+}
+
+.caixa {
+    display: flex;
+}
+
+.botao {
+    background-color: white;
+    width: 85px;
+    height: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.sobreMim {
+    font: normal 16px Arial;
+}
+
+.blocos {
+    @media (min-width: 600px) {
+        display: flex;
+    }
+}
+
+.caracteristicas {
+    text-align: left;
+    color: rgb(120, 242, 120);
+    font: normal 16px Arial;
+
+    width: 100%;
+}
+
+.blocoDois {
+    @media (min-width: 600px) {
+        padding-left: 50px;
+    }
+}
+
+.projetos {
+    color: yellow;
+}
