@@ -61,9 +61,13 @@ body {
     display: flex;
 }
 
+.space {
+    width: 70px;
+}
+
 .botao {
     background-color: white;
-    width: 85px;
+    width: 95px;
     height: 26px;
 
     transition: width 1s, height 1s;
@@ -101,16 +105,23 @@ a {
     text-align: left;
     color: rgb(120, 242, 120);
     font: normal 16px Arial;
-
-    width: 100%;
+    padding-right: 30px;
 }
 
-.blocoDois {
+.bloco {
+    border-radius: 10%;
+    background-color: rgb(162, 95, 95);
+    width: 350px;
     @media (min-width: 600px) {
         padding-left: 50px;
     }
 }
 
-.projetos {
+.projeto {
     color: yellow;
+    text-decoration: underline;
+}
+
+.projetos {
+    padding-right: 30px;
 }
